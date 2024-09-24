@@ -7,8 +7,6 @@ public class Especialidade {
     public Especialidade(){
 
     }
-
-    
     public Long getId() {
         return id;
     }
@@ -22,6 +20,8 @@ public class Especialidade {
         this.nome = nome;
     }
 
-    
-    
+    @Override
+    public String toString() {
+        return this.id + "." + this.nome;
+    }
 }
