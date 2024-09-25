@@ -2,6 +2,7 @@ package br.ufac.sgcm;
 
 import br.ufac.sgcm.dao.ConexaoDB;
 import br.ufac.sgcm.dao.EspecialidadeDao;
+import br.ufac.sgcm.dao.ProfissionalDao;
 import br.ufac.sgcm.model.Especialidade;
 import br.ufac.sgcm.model.Profissional;
 import br.ufac.sgcm.model.Unidade;
@@ -63,6 +64,14 @@ public class Teste {
         //Lista das especialidades
         List<Especialidade> list = edao.get("tria");
         list.forEach(System.out::println);
+
+        System.out.println();
+        //Listar todos os profissionais
+        ProfissionalDao pDao = new ProfissionalDao();
+        List<Profissional> pLista = pDao.get();
+        pLista.forEach(System.out::println);
+
+
 
 
     }

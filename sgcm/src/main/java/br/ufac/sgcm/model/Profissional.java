@@ -61,5 +61,9 @@ public class Profissional {
         this.email = email;
     }
 
-    
+    @Override
+    public String toString() {
+        return "id:" + id + ", nome=" + nome + ", registro=" + registro +", telefone=" + telefone +", email=" + email
+                + ", unidade=" + unidade +", especialidade= " + especialidade;
+    }
 }
