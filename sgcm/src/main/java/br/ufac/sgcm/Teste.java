@@ -1,13 +1,11 @@
 package br.ufac.sgcm;
 
-import br.ufac.sgcm.dao.ConexaoDB;
 import br.ufac.sgcm.dao.EspecialidadeDao;
 import br.ufac.sgcm.dao.ProfissionalDao;
 import br.ufac.sgcm.model.Especialidade;
 import br.ufac.sgcm.model.Profissional;
 import br.ufac.sgcm.model.Unidade;
 
-import java.sql.Connection;
 import java.util.List;
 
 public class Teste {
