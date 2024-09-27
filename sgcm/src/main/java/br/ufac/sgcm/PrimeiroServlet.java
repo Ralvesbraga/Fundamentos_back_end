@@ -12,6 +12,7 @@ public class PrimeiroServlet extends HttpServlet {
         PrintWriter saida =  res.getWriter();
         saida.println("<html>");
         saida.println("<head>");
+        saida.println("<meta charset=\"utf-8\">");
         saida.println("<title> Primeira Página com Servlet</title>");
         saida.println("</head>");
         saida.println("<body>");
