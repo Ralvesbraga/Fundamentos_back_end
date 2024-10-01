@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EspecialidadeController implements IController<Especialidade> {
-    //Todos os méetodos da camada DAO devem estar disponíveis
+    //Todos os métodos da camada DAO devem estar disponíveis
     //Métodos das regras de negócio da aplicação
     EspecialidadeDao eDao;
 
